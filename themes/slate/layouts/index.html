@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>{{ .Title }}</title>{{ if .Site.Params.Favicon }}
+    <link rel="shortcut icon" href="{{ .Site.Params.Favicon }}">{{ end }}
+    <link rel="stylesheet" href="css/slate.css">
+</head>
+<header>
+  <CENTER>
+    <img style="padding:20px 0px 5px 0px" src="https://hackzurich.com/media/pages/workshops/15-legaltech/4173366116-1599065131/legaltech-600x-copy-600x.png" width="300" alt="challenge logo">
+    <h1 style="color:white; font-size:60px">LegalTech suite</h1>
+  </CENTER>
+</header>
+<body{{ if .Site.Params.BackgroundStyle }} style='background: {{ .Site.Params.BackgroundStyle | safeCSS }};'{{ end }}
+{{- if .Site.Params.BackgroundImages }} data-backgrounds='{{ range .Site.Params.BackgroundImages }}{{ . }},{{ end }}'{{- end }}>
+
+{{ partial "nav.html" . }}
+
+<div class="container">{{ partial "tile_slate.html" . }}
+</div>
+
+</body>
+<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+<script src="js/slate.js"></script>
+
+<footer style="background-color: #ffffff;">
+  <CENTER>
+<!-- <h1>LA-CoNGA Suite</h1> -->
+    <img style="padding:5px 0px 5px 0px" src="./logos/footer-hackathon.png" width="100%" alt="hackathon">
+  </CENTER>
+</footer>
+</html>

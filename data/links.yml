@@ -1,0 +1,65 @@
+tiles:
+-
+  name: "HackZurich home"
+  url: "https://hackzurich.com/"
+  img: "logos/hack.jpg"
+  bg_color: "#ffffff"
+  txt_color: "#f5f8fa"
+-
+  name: "Jupyter Hub"
+  url: "http://localhost:8888/"
+  img: "logos/jupyter.png"
+  bg_color: "#ffffff"
+  txt_color: "#000000"
+  tags: ["shopping"]
+  tags: ["favorite", "app"]
+-
+  name: "Single Page task"
+  url: "http://localhost:8888/notebooks/hackathon/complete-demo-challenge-01.ipynb"
+  img: "logos/single-page.png"
+  bg_color: "#ffffff"
+  txt_color: "#e50914"
+  tags: ["favorite", "app"]
+-
+  name: "Multiple Page task"
+  url: "http://localhost:8888/notebooks/hackathon/complete-demo-challenge-02.ipynb"
+  img: "logos/multiple-pages.png"
+  bg_color: "#ffffff"
+  txt_color: "#000000"
+  tags: ["favorite", "app"]
+-
+  name: "Search Template"
+  url: "https://zenodo.org/communities/la-conga/"
+  img: "logos/template-doc.png"
+  bg_color: "#ffffff"
+  txt_color: "#000000"
+  tags: ["favorite","search"]
+-
+  name: "Slack"
+  url: "https://app.slack.com/client/T018BKA6QFN/C018J47MFDX"
+  img: "logos/slack.svg"
+  bg_color: "#FFFFFF"
+  txt_color: "#6441a5"
+  tags: ["communication"]
+-
+  name: "Meeting Room"
+  url: "https://meet.jit.si"
+  img: "logos/jitsi.png"
+  tags: ["video","communication"]
+-
+  name: "Google"
+  url: "https://google.com"
+  img: "logos/google.svg"
+  bg_color: "#ffffff"
+  txt_color: "#cd201f"
+  tags: ["search"]
+-
+  name: "GitHub"
+  url: "https://github.com/LA-CoNGA-MiLab-RedClara"
+  img: "logos/github.png"
+  tags: ["search"]
+-
+  name: "Docs"
+  url: ""
+  img: "logos/mkdocs.png"
+  tags: ["search"]

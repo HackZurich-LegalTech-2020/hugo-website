@@ -1,0 +1,35 @@
+baseURL = "http://universidad.ch/hackzurich/suite/"
+languageCode = "en-us"
+title = "Legal Tech Suite"
+theme = "slate"
+
+publishDir = "docs"
+
+[ params ]
+Favicon = "favicon.ico"
+OpenLinksInNewWindow = true
+
+[[ params.nav ]]
+name = "favorites"
+tag = "favorite"
+icon = "star"
+
+[[ params.nav ]]
+name = "search"
+tag = "search"
+icon = "search"
+
+[[ params.nav ]]
+name = "app"
+tag = "app"
+icon = "users"
+
+[[ params.nav ]]
+name = "communication"
+tag = "communication"
+icon = "headphones"
+
+[[ params.nav ]]
+name = "video"
+tag = "video"
+icon = "video-camera"
