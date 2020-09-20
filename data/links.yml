@@ -15,21 +15,21 @@ tiles:
   tags: ["favorite", "app"]
 -
   name: "Single Page task"
-  url: "http://localhost:8888/notebooks/hackathon/complete-demo-challenge-01.ipynb"
+  url: "http://localhost:8888/notebooks/hackathon/anonymity-demo-01.ipynb"
   img: "logos/single-page.png"
   bg_color: "#ffffff"
   txt_color: "#e50914"
   tags: ["favorite", "app"]
 -
-  name: "Multiple Page task"
-  url: "http://localhost:8888/notebooks/hackathon/complete-demo-challenge-02.ipynb"
+  name: "Multiple Pages task"
+  url: "http://localhost:8888/notebooks/hackathon/pdf-to-text-multiple-pages.ipynb"
   img: "logos/multiple-pages.png"
   bg_color: "#ffffff"
   txt_color: "#000000"
   tags: ["favorite", "app"]
 -
   name: "Search Template"
-  url: "https://zenodo.org/communities/la-conga/"
+  url: "https://view-awesome-table.com/-M-ZvgOl0a4qQupQYOrX/view"
   img: "logos/template-doc.png"
   bg_color: "#ffffff"
   txt_color: "#000000"
@@ -55,7 +55,7 @@ tiles:
   tags: ["search"]
 -
   name: "GitHub"
-  url: "https://github.com/LA-CoNGA-MiLab-RedClara"
+  url: "https://github.com/HackZurich-LegalTech-2020"
   img: "logos/github.png"
   tags: ["search"]
 -
